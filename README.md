@@ -1,8 +1,14 @@
-#PROJECT TITLE
-IT Support Ticketing System
+# IT Support Ticketing System
 
 ## Project Overview
-The IT Support Ticketing System is a web-based application that helps users report technical issues and request IT support. The system allows users to create support tickets, track their status, and receive updates until the issue is resolved.
+The IT Support Ticketing System is a web-based application designed to help users report technical issues and request IT support services. The system enables efficient ticket creation, tracking, and resolution management.
 
 ## Problem Statement
-In many organizations, managing IT support requests manually can lead to delays, lost requests, and poor communication. There is a need for a centralized system that efficiently records, tracks, and manages support tickets. The IT Support Ticketing System solves this problem by providing an organized platform for handling IT service requests and issue resolution.
+Many organizations manage IT support requests through emails, phone calls, or manual records, which can lead to delays, lost requests, and poor communication. A centralized ticketing system is needed to efficiently track, manage, and resolve IT support issues.
+
+## Project Objectives
+- To provide a centralized platform for managing IT support requests.
+- To allow users to create and track support tickets.
+- To improve communication between users and IT support staff.
+- To monitor the status of reported issues until resolution.
+- To maintain a record of all support requests for future reference.
