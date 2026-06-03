@@ -1,4 +1,5 @@
-# IT Support Ticketing System
+#PROJECT TITLE
+IT Support Ticketing System
 
 ## Project Overview
 The IT Support Ticketing System is a web-based application that helps users report technical issues and request IT support. The system allows users to create support tickets, track their status, and receive updates until the issue is resolved.
