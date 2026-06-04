@@ -12,11 +12,15 @@ Many organizations manage IT support requests through emails, phone calls, or ma
 - To improve communication between users and IT support staff.
 - To monitor the status of reported issues until resolution.
 - To maintain a record of all support requests for future reference.
-## Modules
+## Users
+- User/Employee
+- IT Support Staff
+- Administrator
 
-1. User Management
-2. Ticket Management
-3. Support Staff Management
-4. Dashboard
-5. Notification System
-6. Reports & Analytics
+## Modules
+- User Management
+- Ticket Management
+- Ticket Assignment
+- Issue Resolution
+- Notification
+- Reports and Dashboard
