@@ -27,3 +27,6 @@ Many organizations manage IT support requests through emails, phone calls, or ma
 - 💬 Comments
 - 🔔 Notification
 - 📊 Reports & Dashboard
+## Use Case Diagram
+
+![Use Case Diagram](usecase-diagram.png)
