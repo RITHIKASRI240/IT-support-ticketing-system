@@ -29,31 +29,37 @@ Many organizations manage IT support requests through emails, phone calls, or ma
 - 📊 Reports & Dashboard
  ## Use Case Diagram
 
-```text
-          +------------------+
-          | User/Employee    |
-          +------------------+
-                  |
-      -------------------------
-      |       |       |       |
-   Login  Create  View   Comment
-           Ticket Status
+```mermaid
+graph LR
 
-          +------------------+
-          | IT Support Staff |
-          +------------------+
-                  |
-      -------------------------
-      |       |       |
-   Login  Update  Resolve
-          Ticket  Ticket
+U[User / Employee]
+S[IT Support Staff]
+A[Administrator]
 
-          +------------------+
-          | Administrator    |
-          +------------------+
-                  |
-      -------------------------
-      |       |       |
-   Manage Assign Generate
-    Users Tickets Reports
+UC1((Login))
+UC2((Create Ticket))
+UC3((View Ticket Status))
+UC4((Add Comment))
+
+UC5((Update Ticket))
+UC6((Resolve Ticket))
+
+UC7((Manage Users))
+UC8((Assign Tickets))
+UC9((Generate Reports))
+
+U --> UC1
+U --> UC2
+U --> UC3
+U --> UC4
+
+S --> UC1
+S --> UC5
+S --> UC6
+
+A --> UC7
+A --> UC8
+A --> UC9
 ```
+
+
