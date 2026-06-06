@@ -32,34 +32,36 @@ Many organizations manage IT support requests through emails, phone calls, or ma
 ```mermaid
 graph LR
 
-U[User / Employee]
-S[IT Support Staff]
-A[Administrator]
+User[User / Employee]
+Staff[IT Support Staff]
+Admin[Administrator]
 
-UC1((Login))
-UC2((Create Ticket))
-UC3((View Ticket Status))
-UC4((Add Comment))
+subgraph "IT Support Ticketing System"
+    UC1(Login)
+    UC2(Create Ticket)
+    UC3(View Ticket Status)
+    UC4(Add Comments)
+    UC5(Update Ticket)
+    UC6(Resolve Issue)
+    UC7(Manage Users)
+    UC8(Assign Tickets)
+    UC9(Generate Reports)
+end
 
-UC5((Update Ticket))
-UC6((Resolve Ticket))
+User --> UC1
+User --> UC2
+User --> UC3
+User --> UC4
 
-UC7((Manage Users))
-UC8((Assign Tickets))
-UC9((Generate Reports))
+Staff --> UC1
+Staff --> UC5
+Staff --> UC6
+Staff --> UC4
 
-U --> UC1
-U --> UC2
-U --> UC3
-U --> UC4
-
-S --> UC1
-S --> UC5
-S --> UC6
-
-A --> UC7
-A --> UC8
-A --> UC9
+Admin --> UC7
+Admin --> UC8
+Admin --> UC9
+Admin --> UC1
 ```
 
 
