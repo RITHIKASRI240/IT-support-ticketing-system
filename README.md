@@ -29,7 +29,7 @@ Many organizations manage IT support requests through emails, phone calls, or ma
 - 📊 Reports & Dashboard
 
 ## Use Case Diagram
-
+![Use Case Diagram](use-case-diagram.png)
 
 
 
