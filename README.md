@@ -30,6 +30,8 @@ Many organizations manage IT support requests through emails, phone calls, or ma
 
 ## Use Case Diagram
 
+![Use Case Diagram](file_00000000c8cc71fa992e2377310f9d4b.png)
+
 
 
 
