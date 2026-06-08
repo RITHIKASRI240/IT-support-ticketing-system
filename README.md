@@ -32,7 +32,16 @@ Many organizations manage IT support requests through emails, phone calls, or ma
 
 ![Use Case Diagram](file_00000000c8cc71fa992e2377310f9d4b.png)
 
+## Table List
 
+| Table Name | Description |
+|------------|-------------|
+| Users | Stores user details such as name, email, role, and password |
+| Tickets | Stores ticket details such as title, description, status, and priority |
+| Comments | Stores comments related to tickets |
+| Ticket_Assignments | Stores ticket assignment information |
+| Notifications | Stores notification messages for users |
+| Reports | Stores generated report information |
 
 
 
