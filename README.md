@@ -42,6 +42,8 @@ Many organizations manage IT support requests through emails, phone calls, or ma
 | Ticket_Assignments | Stores ticket assignment information |
 | Notifications | Stores notification messages for users |
 | Reports | Stores generated report information |
+## ER Diagram
 
+![ER Diagram](file_00000000ae8071faa8fc861ee8f1acfe.png)
 
 
